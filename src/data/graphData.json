@@ -1,0 +1,142 @@
+{
+  "nodes": [
+    {
+      "id": "0000-0001-0000-1000",
+      "name": "Dr. Emily Zhang",
+      "education": ["Harvard Medical School"],
+      "workplaces": ["Mass General Hospital"],
+      "publications": ["Advanced Cardiology Research", "Heart Failure Study"]
+    },
+    {
+      "id": "0000-0001-0000-1001",
+      "name": "Dr. James Anderson",
+      "education": ["Stanford University School of Medicine"],
+      "workplaces": ["Cleveland Clinic"],
+      "publications": ["Lung Cancer Trends", "Pulmonary Fibrosis Review"]
+    },
+    {
+      "id": "0000-0001-0000-1002",
+      "name": "Dr. Olivia Martinez",
+      "education": ["Johns Hopkins School of Medicine"],
+      "workplaces": ["Cedars-Sinai"],
+      "publications": ["Autoimmune Disorders", "Rheumatology Today"]
+    },
+    {
+      "id": "0000-0001-0000-1003",
+      "name": "Dr. Michael Brown",
+      "education": ["UCLA School of Medicine"],
+      "workplaces": ["Mount Sinai Hospital"],
+      "publications": ["Neurodegeneration Studies", "Alzheimer's Progression"]
+    },
+    {
+      "id": "0000-0001-0000-1004",
+      "name": "Dr. Sarah Khan",
+      "education": ["University of Oxford"],
+      "workplaces": ["Imperial College Healthcare"],
+      "publications": ["Genomic Medicine", "Rare Diseases Annual"]
+    },
+    {
+      "id": "0000-0001-0000-1005",
+      "name": "Dr. Daniel Murphy",
+      "education": ["Harvard Medical School"],
+      "workplaces": ["Mass General Hospital"],
+      "publications": ["Cardiac Imaging Review", "Vascular Surgery Cases"]
+    },
+    {
+      "id": "0000-0001-0000-1006",
+      "name": "Dr. Aisha Patel",
+      "education": ["Stanford University School of Medicine"],
+      "workplaces": ["Cleveland Clinic"],
+      "publications": [
+        "Asthma in Children",
+        "Chronic Obstructive Pulmonary Disease"
+      ]
+    },
+    {
+      "id": "0000-0001-0000-1007",
+      "name": "Dr. Robert Kim",
+      "education": ["Johns Hopkins School of Medicine"],
+      "workplaces": ["Cedars-Sinai"],
+      "publications": ["Endocrinology Advances", "Diabetes Trends"]
+    },
+    {
+      "id": "0000-0001-0000-1008",
+      "name": "Dr. Laura Chen",
+      "education": ["UCLA School of Medicine"],
+      "workplaces": ["Mount Sinai Hospital"],
+      "publications": [
+        "Cognitive Decline in Seniors",
+        "Mental Health Interventions"
+      ]
+    },
+    {
+      "id": "0000-0001-0000-1009",
+      "name": "Dr. William O'Connor",
+      "education": ["University of Oxford"],
+      "workplaces": ["Imperial College Healthcare"],
+      "publications": ["Public Health Data", "Epidemiology Overview"]
+    }
+  ],
+  "links": [
+    {
+      "source": "0000-0001-0000-1000",
+      "target": "0000-0001-0000-1001",
+      "type": "coauthorship",
+      "label": "Co-authored 2 papers on heart-lung interaction"
+    },
+    {
+      "source": "0000-0001-0000-1000",
+      "target": "0000-0001-0000-1002",
+      "type": "sharedWorkplace",
+      "label": "Worked together at a medical symposium"
+    },
+    {
+      "source": "0000-0001-0000-1001",
+      "target": "0000-0001-0000-1003",
+      "type": "coauthorship",
+      "label": "Co-authored Alzheimer's early detection paper"
+    },
+    {
+      "source": "0000-0001-0000-1002",
+      "target": "0000-0001-0000-1004",
+      "type": "sharedWorkplace",
+      "label": "Research fellows at Imperial College"
+    },
+    {
+      "source": "0000-0001-0000-1003",
+      "target": "0000-0001-0000-1005",
+      "type": "coauthorship",
+      "label": "Worked on dementia surgical risks paper"
+    },
+    {
+      "source": "0000-0001-0000-1004",
+      "target": "0000-0001-0000-1006",
+      "type": "sharedWorkplace",
+      "label": "Collaborated in genetics research"
+    },
+    {
+      "source": "0000-0001-0000-1005",
+      "target": "0000-0001-0000-1007",
+      "type": "coauthorship",
+      "label": "Published vascular-diabetes crossover study"
+    },
+    {
+      "source": "0000-0001-0000-1006",
+      "target": "0000-0001-0000-1008",
+      "type": "sharedWorkplace",
+      "label": "Joint training at UCLA clinic"
+    },
+    {
+      "source": "0000-0001-0000-1007",
+      "target": "0000-0001-0000-1009",
+      "type": "coauthorship",
+      "label": "Epidemiology trends in metabolic diseases"
+    },
+    {
+      "source": "0000-0001-0000-1008",
+      "target": "0000-0001-0000-1000",
+      "type": "sharedWorkplace",
+      "label": "Mental health department cross-training"
+    }
+  ]
+}
